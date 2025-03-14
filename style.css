@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: serif;
 }
 
 body {
-  font-family: "popins", serif;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -31,15 +31,15 @@ body {
 
 #newsLetter {
   position: fixed;
-  /* top: -100%;
+  top: -100%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
   background: #fff;
   z-index: 111;
   width: 450px;
   padding: 80px 50px 50px;
   border-radius: 5px;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 #newsLetter.active {
@@ -68,4 +68,26 @@ body {
 .box input,
 button {
   width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  width: 150px;
+  letter-spacing: 0.1rem;
+  background: #7c3af8;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #000000d1;
 }
