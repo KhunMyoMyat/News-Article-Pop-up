@@ -45,6 +45,7 @@ body {
 #newsLetter.active {
   top: 50%;
   visibility: visible;
+  transition: 0.5s;
 }
 
 #newsLetter h2 {
